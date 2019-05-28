@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/antoninbiret/RxEureka.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Antonin_brt'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'RxEureka/Classes/**/*'
 
 
-  s.dependency 'Eureka', '~> 4.0'
+  s.dependency 'Eureka', '~> 5.0'
   s.dependency 'RxCocoa', '~> 4.0'
 
 end
